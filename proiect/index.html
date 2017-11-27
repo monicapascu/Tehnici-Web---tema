@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+<script>
+$(document).ready(function(){
+    $(window).scroll(function(){
+        if ($(this).scrollTop() > 50) {
+            $('#pageup').fadeIn('slow');
+        } else {
+            $('#pageup').fadeOut('slow');
+        }
+    });
+    $('#pageup').click(function(){
+        $("html, body").animate ({scrollTop:0},300);
+        return false;
+    });
+});
+
+</script>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+</head>
+<body>
+
+  <a class="navbar-brand" href="#"><img class="rotate" src="images/logo.png" alt="logo"></a>
+
+
+  <div class="topnav" id="myTopnav">
+
+      <a href="index.html">HOME</a>
+      <a href="about.html">ABOUT</a>
+      <a href="contact.html">CONTACT</a>
+
+
+    <a href="javascript:void(0);" style="font-size:25px;" class="icon" onclick="myFunction()">&#9776;</a>
+
+  </div>
+
+
+<hr>
+<div class="section group">
+  <div class="row">
+    <div class="tex">
+      <h2>I'M A PALE,<br>
+      AWKWARD AND TINY<br>
+      TRAVELLING ENTHUSIAST</h2>
+
+    </div>
+  </div>
+</div>
+<div class="section group">
+  <div class="row">
+    <div class="tex">
+     <a href="#"><span>ALL</span></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><span>FRANCE</span></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><span>HOLLAND</span></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><span>ITALY</span> </a>
+    </div>
+  </div>
+</div>
+<div class="section group">
+  <div class="row">
+    <div class="hov-show">
+
+    <div class="col span_1_of_4 photo">
+      <div class="noice">
+      <img src="images/1.jpg" alt="1">
+      <div class="hover-container"><p>AMSTERDAM</p></div>
+    </div>
+    <div class="noice">
+      <img src="images/2.jpg" alt="2">
+      <div class="hover-container"><p>AMSTERDAM</p></div>
+    </div>
+    <div class="noice">
+      <img src="images/3.jpg" alt="3">
+      <div class="hover-container"><p>FLORENCE</p></div>
+    </div>
+    <div class="noice">
+      <img src="images/4.jpg" alt="4">
+      <div class="hover-container"><p>VENICE</p></div>
+    </div>
+    <div class="noice">
+      <img src="images/5.jpg" alt="5">
+      <div class="hover-container"><p>AMSTERDAM</p></div>
+    </div>
+    </div>
+
+        <div class="col span_1_of_4 photo">
+      <div class="noice">
+      <img src="images/6.jpg" alt="6">
+      <div class="hover-container"><p>FLORENCE</p></div>
+    </div>
+    <div class="noice">
+      <img src="images/7.jpg" alt="7">
+      <div class="hover-container"><p>ROME</p></div>
+    </div>
+    <div class="noice">
+      <img src="images/8.jpg" alt="8">
+      <div class="hover-container"><p>AMSTERDAM</p></div>
+    </div>
+    <div class="noice">
+      <img src="images/9.jpg" alt="9">
+      <div class="hover-container"><p>ROME</p></div>
+    </div>
+    <div class="noice">
+      <img src="images/10.jpg" alt="10">
+      <div class="hover-container"><p>VENICE</p></div>
+    </div>
+    </div>
+     <div class="col span_1_of_4 photo">
+      <div class="noice">
+      <img src="images/11.jpg" alt="11">
+      <div class="hover-container"><p>AMSTERDAM</p></div>
+    </div>
+    <div class="noice">
+      <img src="images/12.jpg" alt="12">
+      <div class="hover-container"><p>ROME</p></div>
+    </div>
+    <div class="noice">
+      <img src="images/13.jpg" alt="13">
+      <div class="hover-container"><p>PARIS</p></div>
+    </div>
+    <div class="noice">
+      <img src="images/14.jpg" alt="14">
+      <div class="hover-container"><p>FLORENCE</p></div>
+    </div>
+    <div class="noice">
+      <img src="images/15.jpg" alt="15">
+      <div class="hover-container"><p>PARIS</p></div>
+    </div>
+    </div>
+     <div class="col span_1_of_4 photo">
+    <div class="noice">
+      <img src="images/16.jpg" alt="16">
+      <div class="hover-container"><p>PARIS</p></div>
+    </div>
+    <div class="noice">
+      <img src="images/17.jpg" alt="17">
+      <div class="hover-container"><p>PARIS</p></div>
+    </div>
+    <div class="noice">
+      <img src="images/18.jpg" alt="18">
+      <div class="hover-container"><p>ROME</p></div>
+    </div>
+    <div class="noice">
+      <img src="images/19.jpg" alt="19">
+      <div class="hover-container"><p>PARIS</p></div>
+    </div>
+    <div class="noice">
+      <img src="images/20.jpg" alt="20">
+      <div class="hover-container"><p>PARIS</p></div>
+    </div>
+    </div>
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <div class="section group">
+  <div class="twit">
+    <a href="#"><span><img src="images/icon-twitter.png" alt="twitter"></span></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><span><img src="images/icon-tumblr.png" alt="tumblr"></span></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><span><img src="images/icon-linkedin.png" alt="linkedin">
+  </span></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><span><img src="images/icon-viadeo.png" alt="viadeo"></span> </a><br>
+  <div class="end-contant">� 2017 MP</div>
+  <a href="#" id="pageup"></a>
+
+  </div>
+</div>
+</div>
+</body>
+</html>

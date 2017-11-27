@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+<script>
+$(document).ready(function(){
+    $(window).scroll(function(){
+        if ($(this).scrollTop() > 50) {
+            $('#pageup').fadeIn('slow');
+        } else {
+            $('#pageup').fadeOut('slow');
+        }
+    });
+    $('#pageup').click(function(){
+        $("html, body").animate ({scrollTop:0},300);
+        return false;
+    });
+});
+
+</script>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+</head>
+<body>
+
+
+
+  <a class="navbar-brand" href="#"><img class="rotate" src="images/logo.png" alt="logo"></a>
+
+
+  <div class="topnav" id="myTopnav">
+      <a href="index.html">HOME</a>
+      <a href="about.html">ABOUT</a>
+      <a href="contact.html">CONTACT</a>
+
+
+    <a href="javascript:void(0);" style="font-size:25px;" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+
+
+<hr>
+<div class="section group">
+  <div class="row">
+    <div class="col span_1_of_4">
+    </div>
+    </div>
+    </div>
+  </hr>
+
+
+
+  <section id="contact">
+    <div align="center">
+    <div class="section group">
+
+
+  	<div class="row">
+  	  <div class="col span_4_of_4">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3736489.7218514383!2d90.21589792292741!3d23.857125486636733!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1506502314230" width="100%" height="315" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+
+        <div class="col span_4_of_4">
+            <h4><strong>Get in Touch</strong></h4>
+          <form>
+            <div class="form-group">
+              <input type="text" class="form-control" name="" value="" placeholder="Name">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" name="" value="" placeholder="E-mail">
+            </div>
+            <div class="form-group">
+              <input type="tel" class="form-control" name="" value="" placeholder="Phone">
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="" rows="3" placeholder="Message"></textarea>
+            </div>
+            <button class="btn btn-default" type="submit" name="button">
+                <i class="fa fa-paper-plane-o" aria-hidden="true"></i> Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+
+<div class="footer">
+  <div class="section group">
+  <div class="twit">
+    <a href="#"><span><img src="images/icon-twitter.png" alt="twitter"></span></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><span><img src="images/icon-tumblr.png" alt="tumblr"></span></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><span><img src="images/icon-linkedin.png" alt="linkedin">
+  </span></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><span><img src="images/icon-viadeo.png" alt="viadeo"></span> </a><br>
+  <div class="end-contant">� 2017 MP</div>
+  <a href="#" id="pageup"></a>
+</div>
+</div>
+</div>
+
+
+</body>
+</html>
